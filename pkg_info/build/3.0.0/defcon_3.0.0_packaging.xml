@@ -5,7 +5,7 @@
 	<echo> ostype ${ostype} </echo>
 	<antcall target="login" />
     
-	<FULL-formal-installpackaging-procedure enable-zipassembly-creation="true" featureconfig-file="product_defcon_3.0.0_FeatureConfig.xml" svn-url="http://svn.tibco.com/install/trunk/defcon/pkg_info/bom/3.0.0/base" svn-revision="HEAD" assembly-id="all" set-environment-variables="bldsrcdir=/local/relbuild/defcon_300/defcon" recipient-email-address="mosingh@tibco.com" ports="all"/>
+	<FULL-formal-installpackaging-procedure enable-zipassembly-creation="true" featureconfig-file="product_defcon_3.0.0_FeatureConfig.xml" svn-url="https://github.com/sashinde-tibco/defcon_code/tree/master/pkg_info/bom/3.0.0/base" svn-revision="HEAD" assembly-id="all" set-environment-variables="bldsrcdir=/local/relbuild/defcon_300/defcon" recipient-email-address="mosingh@tibco.com" ports="all"/>
 
 	<echo> Please see status of job at https://commander.na.tibco.com:5443/commander/jobs.php </echo>
 </target>
